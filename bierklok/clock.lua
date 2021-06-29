@@ -44,8 +44,8 @@ function Update()
 		hour = brands[bonuses[1]]
 		minute = hour
 	elseif (n>=2) then
-		minute = brands[bonuses[1]]
-		hour = brands[bonuses[2]]
+		hour = brands[bonuses[1]]
+		minute = brands[bonuses[2]]
 	end
 
 end
