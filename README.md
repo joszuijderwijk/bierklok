@@ -4,7 +4,7 @@ Een rainmeterskin voor [https://kratjes.net](https://kratjes.net)
 ### Variatie 1
 ![Klok](https://i.imgur.com/Amryve0.gif)
 
-Een klok die de bonusaanbiedingen per supermarkt aangeeft. Klik op de supermarktdisplay om naar de volgende supermarkt te gaan. Als een supermarkt geen aanbiedingen heeft, gaat de Skin automatisch naar de volgende. De klok geeft maximaal twee aanbiedingen weer ([meer informatie](https://kratjes.net)).
+Een klok die de bonusaanbiedingen per supermarkt aangeeft. Klik op de supermarktdisplay om naar de volgende supermarkt te gaan. Als een supermarkt geen aanbiedingen heeft, gaat de Skin automatisch naar de volgende. De klok geeft maximaal twee aanbiedingen weer ([meer informatie](https://joszuijderwijk.nl/kratjes)).
 
 ### Variatie 2
 ![dopjes](https://i.imgur.com/vGaZBOo.png)
