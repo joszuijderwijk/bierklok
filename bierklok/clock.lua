@@ -1,6 +1,6 @@
 
 brands = {HertogJan=0, Grolsch=1, Kornuit=2, Brand=3, Warsteiner=4, Bud=5, Heineken=6, Jupiler=7, Alfa=8, Bavaria=9, Amstel=10, Gulpener=11}
-supermarkets = {"albertheijn", "coop", "plus", "spar", "boons"}
+supermarkets = {"albertheijn", "coop", "plus", "spar", "boons", "hoogvliet"}
 
 local function isempty(s)
   return s == nil or s == ''
