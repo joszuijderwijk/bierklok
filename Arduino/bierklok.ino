@@ -1,6 +1,5 @@
 /* 
   BIERKLOK - Displays the current beer deals on an analog clock.
-  @author: Jos Zuijderwijk
 */
 
 #define NUM_STEPS 720
@@ -24,7 +23,7 @@
 
 // supermarkets
 enum Supermarket{
-  ALBERTHEIJN, COOP, PLUS, SPAR, BOONS, HOOGVLIET
+  ALBERTHEIJN, COOP, PLUS, SPAR, BOONS, HOOGVLIET, DIRK
 };
 
 // priorities
@@ -65,6 +64,7 @@ String plus_data = "";
 String spar_data = "";
 String boons_data = "";
 String hoogvliet_data = "";
+String dirk_data = "";
 
 void setup() {
 
@@ -149,6 +149,8 @@ void callback(char* topic, byte* payload, unsigned int len) {
       supermarket = BOONS;
     else if (msg == "hoogvliet")
       supermarket = HOOGVLIET;
+    else if (msg == "dirk")
+      supermarket = DIRK;
 
     Serial.println(supermarket);
 
@@ -177,6 +179,9 @@ void callback(char* topic, byte* payload, unsigned int len) {
   }else if (strcmp(topic, "kratjes/hoogvliet") == 0){
     hoogvliet_data = msg;
     if (supermarket == HOOGVLIET) refresh();
+  }else if (strcmp(topic, "kratjes/dirk") == 0){
+    dirk_data = msg;
+    if (supermarket == DIRK) refresh();
   }
    
 }
@@ -195,6 +200,8 @@ void refresh(){
     parseInput(boons_data);
   else if (supermarket == HOOGVLIET)
     parseInput(hoogvliet_data);
+  else if (supermarket == DIRK)
+    parseInput(dirk_data);
 }
 
 // parse specified input, i.e. array of brands to clock positions
