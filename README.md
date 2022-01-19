@@ -19,6 +19,6 @@ De dopjes van de bonusaanbiedingen. Geeft maximaal vier aanbiedingen weer. De ge
 ### Installatie
 
 1. Installeer [Rainmeter](https://www.rainmeter.net/)
-2. Download en installleer de [.rmskin package](https://github.com/iovidius/bierklok/raw/main/Bierklok_1.3.rmskin)
+2. Download en installleer de [.rmskin package](https://github.com/iovidius/bierklok/raw/main/Rainmeter/Bierklok_1.3.rmskin)
 
 Of kopieer de bestanden uit de _bierklok_ map direct naar je _Skins_ map en refresh Rainmeter.
