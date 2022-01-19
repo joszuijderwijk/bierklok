@@ -1,5 +1,10 @@
 # Bierklok
-Een rainmeterskin voor [https://kratjes.net](https://kratjes.net)
+Een fysieke klok met een BKA30D-R5 stappenmotor die de huidige bieraanbieding weergeeft. De motor wordt aangestuurd met een ESP8266 module via MQTT. In mijn setup luistert de klok naar data van [kratjes.net](https://kratjes.net). Meer informatie over dit project lees je in [deze blogpost](https://joszuijderwijk.nl/blog/2021/07/29/bierklok/).
+
+[![bierklok](https://img.youtube.com/vi/E2udo9U9OrQ/0.jpg)](https://www.youtube.com/watch?v=E2udo9U9OrQ)
+
+## Rainmeter
+Deze repo bevat ook de rainmeterskin voor [https://kratjes.net](https://kratjes.net)
 
 ### Variatie 1
 ![Klok](https://i.imgur.com/Amryve0.gif)
